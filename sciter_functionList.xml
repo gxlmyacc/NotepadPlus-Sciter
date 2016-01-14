@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+For learning making your language parser, please check the following link:
+http://notepad-plus-plus.org/features/function-list.html
+-->
+<NotepadPlus>
+	<functionList>
+		<associationMap>
+  
+      <association userDefinedLangName="sciter_tiscript" id="sciter_tiscript_function"/>
+		<!--
+			if langID cannot be found above, you can still set the file extensions
+			<association ext=".my_passer_ext1" id="my_passer_id"/>
+			<association ext=".my_passer_ext2" id="my_passer_id"/>
+			
+			for User Defined Languages:
+			<association userDefinedLangName="my user defined language" id="my_udl_passer_id"/>
+			<association userDefinedLangName="Autocad" id="my_autocad_passer_id"/>
+		-->
+
+		</associationMap>
+		<parsers>
+      
+			<parser id="sciter_tiscript_function" displayName="tiscript" commentExpr="((/\*.*?\*)/|(//.*?$))">
+				<function
+				    mainExpr="((^|[\s]+|[;\}\.])([_A-Za-z][\w_]*\.)*[_A-Za-z][\w_]*[\s]*[=:]|^|[\s;\}]+)[\s]*function([\s]+[_A-Za-z@$]?[\w_]*\([^\)\(]*\)|\([^\)\(]*\))[\n\s]*\{"
+					displayMode="$className->$functionName">
+					<functionName>
+						<nameExpr expr="[_A-Za-z@$][\w_]*[\s]*[=:]|[_A-Za-z]?[\w_]*[\s]*\("/>
+						<nameExpr expr="[_A-Za-z@$]?[\w_]*"/>
+					</functionName>
+					<className>
+						<nameExpr expr="([_A-Za-z][\w_]*\.)*[_A-Za-z][\w_]*\."/>
+						<nameExpr expr="([_A-Za-z][\w_]*\.)*[_A-Za-z][\w_]*"/>
+					</className>
+				</function>
+			</parser>
+      
+		</parsers>
+	</functionList>
+</NotepadPlus>
