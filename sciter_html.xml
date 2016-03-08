@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <NotepadPlus>
   <AutoComplete>
-    <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar = "."/>
+    <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar="."/>
     <KeyWord name="!DOCTYPE html"/>
     <KeyWord name="@charset"/>
     <KeyWord name="@const"/>
@@ -38,6 +38,7 @@
     <KeyWord name="address"/>
     <KeyWord name="advance"/>
     <KeyWord name="after"/>
+    <KeyWord name="alert"/>
     <KeyWord name="alignment"/>
     <KeyWord name="all"/>
     <KeyWord name="alphaMask"/>
@@ -117,6 +118,7 @@
     <KeyWord name="autofocus"/>
     <KeyWord name="autoplay"/>
     <KeyWord name="avoid"/>
+    <KeyWord name="await"/>
     <KeyWord name="azimuth"/>
     <KeyWord name="b"/>
     <KeyWord name="BACK"/>
@@ -375,6 +377,7 @@
     <KeyWord name="complete"/>
     <KeyWord name="concat"/>
     <KeyWord name="condensed"/>
+    <KeyWord name="confirm"/>
     <KeyWord name="connect"/>
     <KeyWord name="Connector"/>
     <KeyWord name="consolas"/>
@@ -383,11 +386,11 @@
     <KeyWord name="container"/>
     <KeyWord name="content"/>
     <KeyWord name="content-box"/>
-    <KeyWord name="context-menu"/>   
     <KeyWord name="contenteditable"/>
     <KeyWord name="contentModel"/>
     <KeyWord name="contents"/>
     <KeyWord name="contextmenu"/>
+    <KeyWord name="context-menu"/>
     <KeyWord name="continue"/>
     <KeyWord name="continuous"/>
     <KeyWord name="contrast"/>
@@ -521,18 +524,18 @@
     <KeyWord name="easeDrop"/>
     <KeyWord name="ease-functions.tis"/>
     <KeyWord name="edit"/>
-    <KeyWord name="edit:copy" />
-    <KeyWord name="edit:cut" />
-    <KeyWord name="edit:delete-next" />
-    <KeyWord name="edit:delete-prev" />
-    <KeyWord name="edit:delete-word-next" />
-    <KeyWord name="edit:delete-word-prev" />
-    <KeyWord name="edit:insert-break" />
-    <KeyWord name="edit:insert-soft-break" />
-    <KeyWord name="edit:paste" />
-    <KeyWord name="edit:redo" />
-    <KeyWord name="edit:selectall" />
-    <KeyWord name="edit:undo" />
+    <KeyWord name="edit:copy"/>
+    <KeyWord name="edit:cut"/>
+    <KeyWord name="edit:delete-next"/>
+    <KeyWord name="edit:delete-prev"/>
+    <KeyWord name="edit:delete-word-next"/>
+    <KeyWord name="edit:delete-word-prev"/>
+    <KeyWord name="edit:insert-break"/>
+    <KeyWord name="edit:insert-soft-break"/>
+    <KeyWord name="edit:paste"/>
+    <KeyWord name="edit:redo"/>
+    <KeyWord name="edit:selectall"/>
+    <KeyWord name="edit:undo"/>
     <KeyWord name="elasticIn"/>
     <KeyWord name="elastic-in"/>
     <KeyWord name="elasticInOut"/>
@@ -740,7 +743,7 @@
     <KeyWord name="Event.VK_UP"/>
     <KeyWord name="ex"/>
     <KeyWord name="exec"/>
-    <KeyWord name="execCommand" />
+    <KeyWord name="execCommand"/>
     <KeyWord name="EXECUTE"/>
     <KeyWord name="exists"/>
     <KeyWord name="expand"/>
@@ -858,14 +861,14 @@
     <KeyWord name="foreground-size"/>
     <KeyWord name="form"/>
     <KeyWord name="formaction"/>
-    <KeyWord name="format" />
-    <KeyWord name="format:apply-span" />
-    <KeyWord name="format:indent" />
-    <KeyWord name="format:morph-block" />
-    <KeyWord name="format:toggle-list" />
-    <KeyWord name="format:toggle-pre" />
-    <KeyWord name="format:toggle-span" /> 
-    <KeyWord name="format:unindent" />  
+    <KeyWord name="format"/>
+    <KeyWord name="format:apply-span"/>
+    <KeyWord name="format:indent"/>
+    <KeyWord name="format:morph-block"/>
+    <KeyWord name="format:toggle-list"/>
+    <KeyWord name="format:toggle-pre"/>
+    <KeyWord name="format:toggle-span"/>
+    <KeyWord name="format:unindent"/>
     <KeyWord name="formation"/>
     <KeyWord name="formation.tis"/>
     <KeyWord name="formenctype"/>
@@ -1008,6 +1011,7 @@
     <KeyWord name="InElastic"/>
     <KeyWord name="InExpo"/>
     <KeyWord name="infobackground"/>
+    <KeyWord name="information"/>
     <KeyWord name="infotext"/>
     <KeyWord name="inherit"/>
     <KeyWord name="initial"/>
@@ -1332,7 +1336,6 @@
     <KeyWord name="NUMPAD9"/>
     <KeyWord name="nw-resize"/>
     <KeyWord name="object"/>
-    <KeyWord name="Object"/>
     <KeyWord name="Object.referenceOf"/>
     <KeyWord name="oblique"/>
     <KeyWord name="observing"/>
@@ -1342,7 +1345,7 @@
     <KeyWord name="olive"/>
     <KeyWord name="on"/>
     <KeyWord name="onabort"/>
-    <KeyWord name="onAnimationEnd" />
+    <KeyWord name="onAnimationEnd"/>
     <KeyWord name="onautocomplete"/>
     <KeyWord name="onautocompleteerror"/>
     <KeyWord name="onbeforeprint"/>
@@ -1566,6 +1569,8 @@
     <KeyWord name="progress"/>
     <KeyWord name="promise"/>
     <KeyWord name="promise.tis"/>
+    <KeyWord name="promise.when"/>
+    <KeyWord name="prompt"/>
     <KeyWord name="propButton"/>
     <KeyWord name="property"/>
     <KeyWord name="propertyAt"/>
@@ -1596,7 +1601,8 @@
     <KeyWord name="quart-in-out"/>
     <KeyWord name="quartOut"/>
     <KeyWord name="quart-out"/>
-    <KeyWord name="queryCommand" />
+    <KeyWord name="queryCommand"/>
+    <KeyWord name="question"/>
     <KeyWord name="quintIn"/>
     <KeyWord name="quint-in"/>
     <KeyWord name="quintInOut"/>
@@ -1629,6 +1635,7 @@
     <KeyWord name="refresh"/>
     <KeyWord name="refresh()"/>
     <KeyWord name="RegExp"/>
+    <KeyWord name="reject"/>
     <KeyWord name="rel"/>
     <KeyWord name="relative"/>
     <KeyWord name="remove"/>
@@ -1654,6 +1661,7 @@
     <KeyWord name="reset"/>
     <KeyWord name="resizeable"/>
     <KeyWord name="resolutionchange"/>
+    <KeyWord name="resolve"/>
     <KeyWord name="restore"/>
     <KeyWord name="return"/>
     <KeyWord name="returns"/>
@@ -2106,6 +2114,7 @@
     <KeyWord name="unrestricted"/>
     <KeyWord name="unshift"/>
     <KeyWord name="unsubscribe"/>
+    <KeyWord name="untilMouseUp"/>
     <KeyWord name="unwrap"/>
     <KeyWord name="UP"/>
     <KeyWord name="update"/>
@@ -2114,6 +2123,7 @@
     <KeyWord name="upper-latin"/>
     <KeyWord name="upper-roman"/>
     <KeyWord name="url"/>
+    <KeyWord name="urlEncode"/>
     <KeyWord name="urlEscape"/>
     <KeyWord name="urlUnescape"/>
     <KeyWord name="usemap"/>
@@ -2163,6 +2173,7 @@
     <KeyWord name="view.doEvent"/>
     <KeyWord name="view.eventsRoot"/>
     <KeyWord name="view.focus"/>
+    <KeyWord name="View.FRAME_WINDOW"/>
     <KeyWord name="view.isMaximizable"/>
     <KeyWord name="view.isMinimizable"/>
     <KeyWord name="view.isResizeable"/>
@@ -2175,6 +2186,7 @@
     <KeyWord name="view.off"/>
     <KeyWord name="view.on"/>
     <KeyWord name="view.parameters"/>
+    <KeyWord name="View.POPUP_WINDOW"/>
     <KeyWord name="view.request"/>
     <KeyWord name="view.root"/>
     <KeyWord name="view.screen"/>
@@ -2183,11 +2195,14 @@
     <KeyWord name="view.selectFile"/>
     <KeyWord name="view.selectPrinter"/>
     <KeyWord name="view.state"/>
+    <KeyWord name="View.TOOL_WINDOW"/>
     <KeyWord name="view.update"/>
     <KeyWord name="view.window"/>
-    <KeyWord name="view.WINDOW_HIDDEN"/>
-    <KeyWord name="view.WINDOW_MAXIMIZED"/>
-    <KeyWord name="view.WINDOW_MINIMIZED"/>
+    <KeyWord name="View.WINDOW_FULL_SCREEN"/>
+    <KeyWord name="View.WINDOW_HIDDEN"/>
+    <KeyWord name="View.WINDOW_MAXIMIZED"/>
+    <KeyWord name="View.WINDOW_MINIMIZED"/>
+    <KeyWord name="View.WINDOW_SHOWN"/>
     <KeyWord name="VirtualTree"/>
     <KeyWord name="visibility"/>
     <KeyWord name="visible"/>
@@ -2205,6 +2220,7 @@
     <KeyWord name="volume"/>
     <KeyWord name="vw"/>
     <KeyWord name="wait"/>
+    <KeyWord name="warning"/>
     <KeyWord name="wav"/>
     <KeyWord name="wbr"/>
     <KeyWord name="webdings"/>
@@ -2229,6 +2245,7 @@
     <KeyWord name="window-body"/>
     <KeyWord name="window-caption"/>
     <KeyWord name="window-close"/>
+    <KeyWord name="windowCommand"/>
     <KeyWord name="window-icon"/>
     <KeyWord name="window-maximize"/>
     <KeyWord name="window-minimize"/>
@@ -2237,16 +2254,12 @@
     <KeyWord name="Windows-2000"/>
     <KeyWord name="Windows-2003"/>
     <KeyWord name="Windows-7"/>
+    <KeyWord name="Windows-7.1"/>
     <KeyWord name="Windows-8"/>
-    <KeyWord name="Windows-98"/>
-    <KeyWord name="Windows-98-SE"/>
-    <KeyWord name="Windows-CE"/>
-    <KeyWord name="Windows-ME"/>
-    <KeyWord name="Windows-NT4"/>
+    <KeyWord name="Windows-8.1"/>
+    <KeyWord name="windowSizer"/>
     <KeyWord name="Windows-Vista"/>
     <KeyWord name="Windows-XP"/>
-    <KeyWord name="windowCommand"/>
-    <KeyWord name="windowSizer"/>
     <KeyWord name="windowtext"/>
     <KeyWord name="word-spacing"/>
     <KeyWord name="word-wrap"/>
